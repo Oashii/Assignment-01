@@ -9,6 +9,11 @@
   font-weight: bold;
   color: rgba(37, 36, 50, 1);
 }
+.sub-title1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: rgba(37, 36, 50, 0.5);
+}
 
 .btn {
   background-color: #4e47ff;
@@ -45,4 +50,26 @@ nav li {
 .banner {
   padding: 100px 265px 150px;
   text-align: center;
+}
+
+/* main section  */
+
+main {
+  margin: 0px 150px;
+}
+
+/* action section */
+.action-container {
+  padding-top: 115px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
 }
