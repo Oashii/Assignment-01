@@ -154,3 +154,38 @@ textarea {
   padding: 20px 32px;
   border: none;
 }
+
+/* footer part styles */
+
+footer {
+  margin: 0;
+  background-color: white;
+  justify-items: center;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  padding-top: 105px;
+}
+
+footer p {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  font-size: 26px;
+  padding-bottom: 105px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
