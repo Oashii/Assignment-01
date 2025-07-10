@@ -128,6 +128,7 @@ label {
 
 .contact-container {
   padding-top: 50px;
+  padding-top: 135px;
 }
 
 .contact {
@@ -182,10 +183,70 @@ footer p {
   gap: 48px;
   font-size: 26px;
   padding-bottom: 105px;
+  padding-right: 50px;
 }
 
 footer a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+/* user ratings section */
+
+.ratings-container h1 {
+  text-align: center;
+  padding-top: 140px;
+}
+
+.ratings {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-ratings {
+  background-color: white;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.title3 {
+  font-size: 20px;
+}
+
+.sub-title3 {
+  font-size: 18px;
+  padding-bottom: 24px;
+}
+
+.user-id {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.user-info h4 {
+  color: rgba(117, 117, 117, 1);
+}
+
+.user-info h5 {
+  color: rgba(179, 179, 179, 1);
+}
+
+.user-info h4,
+h5 {
+  margin: 0;
 }
