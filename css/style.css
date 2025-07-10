@@ -1,7 +1,7 @@
 /* shared styles */
 
 body {
-  background-color: rgba(187, 187, 187, 0.1);
+  background-color: rgba(245, 248, 255, 1);
 }
 
 .text-color1 {
@@ -30,6 +30,7 @@ body {
 }
 button:hover {
   background-color: slategray;
+  color: black;
 }
 
 /* header style */
@@ -116,4 +117,40 @@ main {
   font-weight: normal;
   color: rgba(0, 0, 0, 0.5);
   margin: 0;
+}
+
+/* contact container */
+
+label {
+  font-size: 18px;
+  color: black;
+}
+
+.contact-container {
+  padding-top: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"],
+[type="email"] {
+  height: 70px;
+  width: 497px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 8px 0;
+  padding: 20px 32px;
+  border: none;
+}
+textarea {
+  height: 135px;
+  width: 497px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 8px 0;
+  padding: 20px 32px;
+  border: none;
 }
