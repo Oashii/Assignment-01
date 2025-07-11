@@ -201,12 +201,14 @@ footer a {
 
 .ratings {
   display: flex;
-  gap: 20px;
+  gap: 80px;
   justify-content: center;
 }
 
 .user-ratings {
   background-color: white;
+  width: 365px;
+  height: 245px;
   border-radius: 14px;
   padding: 24px;
 }
