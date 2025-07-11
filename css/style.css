@@ -31,6 +31,7 @@ body {
 button:hover {
   background-color: slategray;
   color: black;
+  cursor: pointer;
 }
 
 /* header style */
